@@ -3,7 +3,9 @@
 }
 
 body{
-    background-color: rgb(126, 62, 25);
+    background:url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /*******Season choice buttons*******/
