@@ -38,7 +38,7 @@ body{
     animation-delay: 0.9s;
 }
 
-/*******Animation*******/
+/*******Animations*******/
 
 @keyframes animation1{
     from{top:-200px;}

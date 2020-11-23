@@ -120,7 +120,7 @@ body {
     background-color: rgb(72, 182, 255);
 }
 
-/*******Meassage pop-up*******/
+/*******Pop-up message*******/
 .winning-message {
     display: none;
     position: fixed;
