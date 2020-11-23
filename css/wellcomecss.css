@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(126, 62, 25);
+    animation: imgfade 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    height: 880px;
+}
+
+/*******Title*******/
+
+.wellcome{
+    position: relative;
+    color:white;
+    text-align: center;
+    font-size: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 14px #3f300f;
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.to{
+    position: relative;
+    margin-top: -400px;
+    color:white;
+    text-align: center;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 14px #3f300f;
+    animation-name: animation2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
+}
+
+/*******Animation*******/
+
+@keyframes animation1{
+    from{top:-200px;}
+    to{top:50px;}
+}
+
+@keyframes animation2{
+    from{top:-400px;}
+    to{top:460px;}
+}
+
+@keyframes imgfade{
+    0% {
+        background: rgb(126, 62, 25);
+    }
+
+    50% {
+        background: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        filter: blur(10px);
+    }
+
+    100% {
+        background: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        filter: blur(2000px);
+    }
+}
+
+/*******Audio*******/
+
+.audio{
+    visibility:hidden;
+}

@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(126, 62, 25);
+}
+
+/*******Choice for season buttons*******/
+.buttons{
+    height: 200px;
+}
+
+/**summer**/
+.sum{
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: rgb(26, 25, 25);
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    margin-left: 15%;
+    margin-top: 30%;
+    animation-name: buttonshow;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 16px #e0cb0d;
+    }
+
+.sum:hover{
+    box-shadow: 0px 0px 36px#e0cb0d;
+    transition: all 1s ease-in-out;
+}
+
+/**autumn**/
+.aut{
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: rgb(26, 25, 25);
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    animation-name: buttonshow1;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 16px #e06c0d;
+}
+    
+.aut:hover{
+    box-shadow: 0px 0px 36px#e06c0d;
+    transition: all 1s ease-in-out;
+}
+
+/**winter**/
+.win{
+    border: 3px solid #fff;
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: rgb(26, 25, 25);
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    animation-name: buttonshow1;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 16px #0d8ce0;
+}
+        
+.win:hover{
+    box-shadow: 0px 0px 36px#0d8ce0;
+    transition: all 1s ease-in-out;
+}
+
+/**spring**/
+.spr{
+    border: 3px solid rgb(255, 255, 255);
+    color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    background: rgb(26, 25, 25);
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    animation-name: buttonshow1;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 16px #96e00d;
+}
+            
+.spr:hover{
+    box-shadow: 0px 0px 36px#96e00d;
+    transition: all 1s ease-in-out;
+}
+
+/**animations and alignment**/
+@keyframes buttonshow{
+    from{
+        border: 3px solid #fff;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        background: rgb(126, 62, 25);
+        cursor: pointer;
+        padding: 25px 80px;
+        display: inline-block;
+        margin: 15px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        transition: all 0.3s;
+        margin-left: 17.5%;
+        margin-top: 30%;
+        filter: blur(500px);
+    }
+    to{
+        border: 3px solid #fff;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        background: rgb(126, 62, 25);
+        cursor: pointer;
+        padding: 25px 80px;
+        display: inline-block;
+        margin: 15px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        transition: all 0.3s;
+        margin-left: 15%;
+        margin-top: 30%;
+    }
+}
+
+@keyframes buttonshow1{
+    from{
+        border: 3px solid #fff;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        background: rgb(126, 62, 25);
+        cursor: pointer;
+        padding: 25px 80px;
+        display: inline-block;
+        margin: 15px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        transition: all 0.3s;
+        filter: blur(500px);
+    }
+    to{
+        border: 3px solid #fff;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        background: rgb(126, 62, 25);
+        cursor: pointer;
+        padding: 25px 80px;
+        display: inline-block;
+        margin: 15px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        transition: all 0.3s;
+    }
+}
+
+/**title text**/
+.text{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-top:200px;
+    margin-left: 36%;
+    animation-name: textshow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes textshow{
+    from{
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        margin-top:200px;
+        margin-left: 36%;
+        animation-name: textshow;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        filter: blur(20px);
+    }
+    to{
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        margin-top:200px;
+        margin-left: 36%;
+        animation-name: textshow;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
