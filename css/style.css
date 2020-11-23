@@ -223,19 +223,3 @@ body {
     color: rgb(43, 88, 124);
     transition: 1s;
 }
-
-.vl{
-    border-left: 3px solid rgb(75, 75, 75);
-    height: 64px;
-    position: absolute;
-    top: 0px;
-    margin-left: 1298px;
-}
-
-.vl1{
-    border-left: 3px solid #333;
-    height: 64px;
-    position: absolute;
-    top: 0px;
-    margin-left: 1452px;
-}
