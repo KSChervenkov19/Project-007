@@ -23,7 +23,6 @@ body{
     cursor: pointer;
     padding: 25px 80px;
     display: inline-block;
-    margin: 15px 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -31,11 +30,11 @@ body{
     outline: none;
     position: relative;
     transition: all 0.3s;
-    margin-left: 15%;
     margin-top: 30%;
     animation-name: buttonshow;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #e0cb0d;
+    margin-left: 18vh;
     }
 
 .sum:hover{
@@ -53,7 +52,6 @@ body{
     cursor: pointer;
     padding: 25px 80px;
     display: inline-block;
-    margin: 15px 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -64,6 +62,7 @@ body{
     animation-name: buttonshow1;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #e06c0d;
+    margin-left: 21vh;
 }
     
 .aut:hover{
@@ -81,7 +80,6 @@ body{
     cursor: pointer;
     padding: 25px 80px;
     display: inline-block;
-    margin: 15px 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -92,6 +90,7 @@ body{
     animation-name: buttonshow1;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #0d8ce0;
+    margin-left: 7vh;
 }
         
 .win:hover{
@@ -109,7 +108,6 @@ body{
     cursor: pointer;
     padding: 25px 80px;
     display: inline-block;
-    margin: 15px 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -120,6 +118,7 @@ body{
     animation-name: buttonshow1;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #96e00d;
+    margin-left: 24vh;
 }
             
 .spr:hover{
@@ -134,7 +133,7 @@ body{
         color: #fff;
         font-family: inherit;
         font-size: inherit;
-        background: rgb(126, 62, 25);
+        background: rgb(26, 25, 25);
         cursor: pointer;
         padding: 25px 80px;
         display: inline-block;
@@ -155,11 +154,10 @@ body{
         color: #fff;
         font-family: inherit;
         font-size: inherit;
-        background: rgb(126, 62, 25);
+        background: rgb(26, 25, 25);
         cursor: pointer;
         padding: 25px 80px;
         display: inline-block;
-        margin: 15px 30px;
         text-transform: uppercase;
         text-decoration: none;
         letter-spacing: 1px;
@@ -178,7 +176,7 @@ body{
         color: #fff;
         font-family: inherit;
         font-size: inherit;
-        background: rgb(126, 62, 25);
+        background: rgb(26, 25, 25);
         cursor: pointer;
         padding: 25px 80px;
         display: inline-block;
@@ -197,7 +195,7 @@ body{
         color: #fff;
         font-family: inherit;
         font-size: inherit;
-        background: rgb(126, 62, 25);
+        background: rgb(26, 25, 25);
         cursor: pointer;
         padding: 25px 80px;
         display: inline-block;
@@ -214,15 +212,16 @@ body{
 
 /**title text**/
 .text{
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
     color: white;
     position: absolute;
-    margin-top:200px;
-    margin-left: 36%;
     animation-name: textshow;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    width: 550px;
+    border: 3px solid #fff;
+    background: rgb(26, 25, 25);
 }
 
 @keyframes textshow{
@@ -232,7 +231,7 @@ body{
         color: white;
         position: absolute;
         margin-top:200px;
-        margin-left: 36%;
+        margin-left: 34%;
         animation-name: textshow;
         animation-duration: 1s;
         animation-fill-mode: forwards;
@@ -244,7 +243,7 @@ body{
         color: white;
         position: absolute;
         margin-top:200px;
-        margin-left: 36%;
+        margin-left: 34%;
         animation-name: textshow;
         animation-duration: 1s;
         animation-fill-mode: forwards;
