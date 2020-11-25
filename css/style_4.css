@@ -10,7 +10,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: url(../img/background1.jpg);
+    background: url(../img/background2.png);
     background-repeat: no-repeat;
     background-size: 100%, 100%;
 }
@@ -116,7 +116,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: rgb(72, 182, 255);
+    background-color: rgb(152, 210, 248);
 }
 
 /*******Pop-up message*******/
@@ -163,7 +163,7 @@ body {
 .text{
     text-align: center;
     font-size: 60px;
-    color:rgb(48, 42, 141);
+    color:rgb(62, 10, 97);
     margin-top: 120px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -191,7 +191,7 @@ body {
 }
 
 .rnav:hover{
-    color: rgb(43, 88, 124);
+    color: rgb(255, 255, 255);
     transition: 1s;
 }
 
@@ -205,7 +205,7 @@ body {
 }
 
 .rnav1:hover{
-    color: rgb(43, 88, 124);
+    color: rgb(255, 255, 255);
     transition: 1s;
 }
 
@@ -219,18 +219,18 @@ body {
 }
 
 .rnav2:hover{
-    color: rgb(43, 88, 124);
+    color: rgb(255, 255, 255);
     transition: 1s;
 }
 
 .p1{
-    color: white;
+    color:rgb(62, 10, 97);
     font-size: 30px;
     margin-left: 15%;
 }
 
 .p2{
-    color: white;
+    color: rgb(62, 10, 97);
     font-size: 30px;
     margin-left: 75%;
     margin-top: -63px;
