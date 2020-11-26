@@ -8,12 +8,12 @@ body{
     background-size: 100%;
 }
 
-/*******Season choice buttons*******/
+/*      SEASON CHOICE BUTTONS      */
 .buttons{
     height: 200px;
 }
 
-/**summer**/
+/* SUMMER */
 .sum{
     border: 3px solid #fff;
     color: #fff;
@@ -42,7 +42,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
-/**autumn**/
+/* AUTUMN */
 .aut{
     border: 3px solid #fff;
     color: #fff;
@@ -70,7 +70,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
-/**winter**/
+/* WINTER */
 .win{
     border: 3px solid #fff;
     color: #fff;
@@ -98,7 +98,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
-/**spring**/
+/* SPRING */
 .spr{
     border: 3px solid rgb(255, 255, 255);
     color: #fff;
@@ -126,7 +126,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
-/**animations and alignment**/
+/* ANIMAIONS AND ALIGNMENT */
 @keyframes buttonshow{
     from{
         border: 3px solid #fff;
@@ -293,7 +293,7 @@ body{
     }
 }
 
-/**title text**/
+/* TITLE TEXT */
 .text{
     font-size: 100px;
     text-align: center;

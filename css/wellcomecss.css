@@ -10,7 +10,7 @@ body{
     height: 880px;
 }
 
-/*******Title*******/
+/*      TITLE      */
 
 .wellcome{
     position: relative;
@@ -38,7 +38,7 @@ body{
     animation-delay: 0.9s;
 }
 
-/*******Animations*******/
+/*      ANIMATIONS      */
 
 @keyframes animation1{
     from{top:-200px;}
@@ -72,7 +72,7 @@ body{
     }
 }
 
-/*******Audio*******/
+/*      AUDIO      */
 
 .audio{
     visibility:hidden;
