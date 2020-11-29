@@ -3,332 +3,72 @@
 }
 
 body{
-    background:url(../img/4.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: rgb(126, 62, 25);
+    animation: imgfade 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    height: 880px;
 }
 
-/*      SEASON CHOICE BUTTONS      */
-.buttons{
-    height: 200px;
-}
+/*      TITLE      */
 
-/* SUMMER */
-.sum{
-    border: 3px solid #fff;
-    color: #fff;
-    font-family: inherit;
-    font-size: inherit;
-    background: rgb(26, 25, 25);
-    cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 700;
-    outline: none;
+.wellcome{
     position: relative;
-    transition: all 0.3s;
-    margin-top: 30%;
-    animation-name: buttonshow;
-    animation-duration: 1s;
-    box-shadow: 0px 0px 16px #e0cb0d;
-    margin-left: 18vh;
-    }
-
-.sum:hover{
-    box-shadow: 0px 0px 36px#e0cb0d;
-    transition: all 1s ease-in-out;
-}
-
-/* AUTUMN */
-.aut{
-    border: 3px solid #fff;
-    color: #fff;
-    font-family: inherit;
-    font-size: inherit;
-    background: rgb(26, 25, 25);
-    cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 700;
-    outline: none;
-    position: relative;
-    transition: all 0.3s;
-    animation-name: buttonshow1;
-    animation-duration: 1s;
-    box-shadow: 0px 0px 16px #e06c0d;
-    margin-left: 21vh;
-}
-    
-.aut:hover{
-    box-shadow: 0px 0px 36px#e06c0d;
-    transition: all 1s ease-in-out;
-}
-
-/* WINTER */
-.win{
-    border: 3px solid #fff;
-    color: #fff;
-    font-family: inherit;
-    font-size: inherit;
-    background: rgb(26, 25, 25);
-    cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 700;
-    outline: none;
-    position: relative;
-    transition: all 0.3s;
-    animation-name: buttonshow2;
-    animation-duration: 1s;
-    box-shadow: 0px 0px 16px #0d8ce0;
-    margin-left: 7vh;
-}
-        
-.win:hover{
-    box-shadow: 0px 0px 36px#0d8ce0;
-    transition: all 1s ease-in-out;
-}
-
-/* SPRING */
-.spr{
-    border: 3px solid rgb(255, 255, 255);
-    color: #fff;
-    font-family: inherit;
-    font-size: inherit;
-    background: rgb(26, 25, 25);
-    cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: 700;
-    outline: none;
-    position: relative;
-    transition: all 0.3s;
-    animation-name: buttonshow3;
-    animation-duration: 1s;
-    box-shadow: 0px 0px 16px #96e00d;
-    margin-left: 24vh;
-}
-            
-.spr:hover{
-    box-shadow: 0px 0px 36px#96e00d;
-    transition: all 1s ease-in-out;
-}
-
-/* ANIMAIONS AND ALIGNMENT */
-@keyframes buttonshow{
-    from{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-        margin-left: 18vh;
-        margin-top: 30%;
-        filter: blur(500px);
-    }
-    to{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-        margin-left: 15%;
-        margin-top: 30%;
-    }
-}
-
-@keyframes buttonshow1{
-    from{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-        filter: blur(500px);
-        margin-left: 21vh;
-    }
-    to{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-        margin-left: 24vh;
-    }
-}
-
-@keyframes buttonshow2{
-    from{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-        filter: blur(500px);
-        margin-left: 7vh;
-    }
-    to{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-    }
-}
-
-@keyframes buttonshow3{
-    from{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-        filter: blur(500px);
-        margin-left: 24vh;
-    }
-    to{
-        border: 3px solid #fff;
-        color: #fff;
-        font-family: inherit;
-        font-size: inherit;
-        background: rgb(26, 25, 25);
-        cursor: pointer;
-        padding: 25px 80px;
-        display: inline-block;
-        margin: 15px 30px;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: 700;
-        outline: none;
-        position: relative;
-        transition: all 0.3s;
-    }
-}
-
-/* TITLE TEXT */
-.text{
-    font-size: 100px;
+    color:white;
     text-align: center;
-    color: white;
-    position: absolute;
-    animation-name: textshow;
+    font-size: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 14px #3f300f;
+    animation-name: animation1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    width: 550px;
-    border: 3px solid #fff;
-    background: rgb(26, 25, 25);
 }
 
-@keyframes textshow{
-    from{
-        font-size: 80px;
-        text-align: center;
-        color: white;
-        position: absolute;
-        margin-top:200px;
-        margin-left: 34%;
-        animation-name: textshow;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-        filter: blur(20px);
+.to{
+    position: relative;
+    margin-top: -400px;
+    color:white;
+    text-align: center;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 14px #3f300f;
+    animation-name: animation2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
+}
+
+/*      ANIMATIONS      */
+
+@keyframes animation1{
+    from{top:-200px;}
+    to{top:50px;}
+}
+
+@keyframes animation2{
+    from{top:-400px;}
+    to{top:460px;}
+}
+
+@keyframes imgfade{
+    0% {
+        background: rgb(126, 62, 25);
     }
-    to{
-        font-size: 80px;
-        text-align: center;
-        color: white;
-        position: absolute;
-        margin-top:200px;
-        margin-left: 34%;
-        animation-name: textshow;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+
+    50% {
+        background: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        filter: blur(10px);
+    }
+
+    100% {
+        background: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        filter: blur(2000px);
     }
 }
+

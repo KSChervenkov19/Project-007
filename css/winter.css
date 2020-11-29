@@ -1,0 +1,237 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --cell-size: 120px;
+    --mark-size: calc(var(--cell-size) * .9);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+/*      GAME BOARD      */
+.board {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 90vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+    border-top: none;
+}
+
+.cell:nth-child(3n + 1) {
+    border-left: none;
+}
+
+.cell:nth-child(3n + 3) {
+    border-right: none;
+}
+
+.cell:last-child,
+.cell:nth-child(8),
+.cell:nth-child(7) {
+    border-bottom: none;
+}
+
+.cell.x,
+.cell.circle {
+    cursor: not-allowed;
+}
+
+.cell.x::before,
+.cell.x::after,
+.cell.circle::before {
+    background-color: black;
+}
+
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after,
+.board.circle .cell:not(.x):not(.circle):hover::before {
+    background-color: rgb(75, 75, 75);
+}
+
+.cell.x::before,
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after {
+    content: '';
+    position: absolute;
+    width: calc(var(--mark-size) * .15);
+    height: var(--mark-size);
+}
+
+.cell.x::before,
+.board.x .cell:not(.x):not(.circle):hover::before {
+    transform: rotate(45deg);
+}
+
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::after {
+    transform: rotate(-45deg);
+}
+
+.cell.circle::before,
+.cell.circle::after,
+.board.circle .cell:not(.x):not(.circle):hover::before,
+.board.circle .cell:not(.x):not(.circle):hover::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+}
+
+.cell.circle::before,
+.board.circle .cell:not(.x):not(.circle):hover::before {
+    width: var(--mark-size);
+    height: var(--mark-size);
+}
+
+.cell.circle::after,
+.board.circle .cell:not(.x):not(.circle):hover::after {
+    width: calc(var(--mark-size) * .7);
+    height: calc(var(--mark-size) * .7);
+    background-color: rgb(72, 182, 255);
+}
+
+/*      POP-UP MESSAGE      */
+.winning-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.winning-message button {
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+.winning-message button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.winning-message.show {
+    display: flex;
+}
+
+/*      TEXT & TITLE      */
+.h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    text-align: center;
+    font-size: 60px;
+    color:rgb(48, 42, 141);
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*      NAVBAR      */
+.logo{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.158);
+    position: sticky;
+}
+
+.rnav{
+    position: absolute;
+    left: 57%;
+    margin-top: 12px;
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.rnav:hover{
+    color: rgb(43, 88, 124);
+    transition: 1s;
+}
+
+.rnav1{
+    position: absolute;
+    left: 79%;
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+.rnav1:hover{
+    color: rgb(43, 88, 124);
+    transition: 1s;
+}
+
+.rnav2{
+    position: absolute;
+    left: 88%;
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+.rnav2:hover{
+    color: rgb(43, 88, 124);
+    transition: 1s;
+}
+
+.p1{
+    color: white;
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+.p2{
+    color: white;
+    font-size: 30px;
+    margin-left: 75%;
+    margin-top: -63px;
+}
