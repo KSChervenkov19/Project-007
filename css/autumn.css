@@ -21,7 +21,6 @@ body {
     margin-right: auto;
     margin-top: 90px;
     width: 90vw;
-
     display: grid;
     justify-content: center;
     align-content: center;
@@ -67,9 +66,13 @@ body {
 }
 
 .cell.x::before,
-.cell.x::after,
+.cell.x::after{
+    background-image: url(../img/autumn1.png);
+    background-size: 100%, 100%;
+}
 .cell.circle::before {
-    background-color: black;
+    background-image: url(../img/autumn2.png);
+    background-size: 100%, 100%;
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
@@ -84,18 +87,8 @@ body {
 .board.x .cell:not(.x):not(.circle):hover::after {
     content: '';
     position: absolute;
-    width: calc(var(--mark-size) * .15);
+    width: calc(var(--mark-size));
     height: var(--mark-size);
-}
-
-.cell.x::before,
-.board.x .cell:not(.x):not(.circle):hover::before {
-    transform: rotate(45deg);
-}
-
-.cell.x::after,
-.board.x .cell:not(.x):not(.circle):hover::after {
-    transform: rotate(-45deg);
 }
 
 .cell.circle::before,
@@ -117,7 +110,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: rgb(189, 128, 88);
+    background-color: transparent;
 }
 
 /*      POP-UP MESSAGE      */
