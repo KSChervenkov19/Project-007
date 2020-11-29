@@ -9,7 +9,7 @@ This is basic Tic Tac Toe for kids who want to have fun, while learning the seas
 Download the site from [github](https://github.com/KSChervenkov19/Project-007) by pressing the green clone button. 
 
 ```bash
-Start your adventure with opening "WellcomeSite.html"
+Start your adventure with opening "index.html"
 ```
 
 ## How to Play?
