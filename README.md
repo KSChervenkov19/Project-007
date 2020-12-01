@@ -15,14 +15,14 @@ Start your adventure with opening "index.html"
 ## How to Play?
 
 ```html
-By choosing the season you can change the style of the Tic Tac Toe
+By choosing the season, you can change the style of the Tic Tac Toe
 ```
 
 ## Future updates
 **version 1.1**
 ---
-- Adding a BOT who plays VS the player.
+- Adding a BOT who can play VS the player.
 - Adding custom styles for each season.
 
 ## Thank you for playing
-Pull requests are welcome. If you support our project, you can always share it on the social medias.
+Pull requests are welcome. If you support our project, you can always share it on social media.
