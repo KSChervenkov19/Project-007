@@ -1,4 +1,4 @@
-# Wellocme to Mission Season! <img src="https://cdn.discordapp.com/attachments/773226631417692210/777996123804794950/logo.jpg" width="48">
+# Welcome to Mission Season! <img src="https://cdn.discordapp.com/attachments/773226631417692210/777996123804794950/logo.jpg" width="48">
 
 **version 1.0**
 ---
