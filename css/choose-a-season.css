@@ -295,14 +295,14 @@ body{
 
 /* TITLE TEXT */
 .text{
-    font-size: 100px;
+    font-size: 550px;
     text-align: center;
     color: white;
-    position: absolute;
+    position: relative;
     animation-name: textshow;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    width: 550px;
+    width: 35vw;
     border: 3px solid #fff;
     background: rgb(26, 25, 25);
 }
