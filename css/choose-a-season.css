@@ -8,9 +8,59 @@ body{
     background-size: cover;
 }
 
+/* TITLE TEXT */
+.text{
+    font-size: 550px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    animation-name: textshow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    width: 35vw;
+    border: 3px solid #fff;
+    background: rgb(26, 25, 25);
+}
+
+@keyframes textshow{
+    from{
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        margin-top:200px;
+        margin-left: 33vw;
+        animation-name: textshow;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        filter: blur(20px);
+    }
+    to{
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        margin-top: -18vw;
+        margin-left: 33vw;
+        animation-name: textshow;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
+
+
 /*      SEASON CHOICE BUTTONS      */
 .buttons{
     height: 200px;
+    width: fit-content;
+    margin-top: 30vw;
+    width: 100%;
+}
+
+td{
+    width: 1fr;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* SUMMER */
@@ -22,7 +72,10 @@ body{
     background: rgb(26, 25, 25);
     cursor: pointer;
     padding: 25px 80px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -30,12 +83,10 @@ body{
     outline: none;
     position: relative;
     transition: all 0.3s;
-    margin-top: 30%;
     animation-name: buttonshow;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #e0cb0d;
-    margin-left: 18vh;
-    }
+}
 
 .sum:hover{
     box-shadow: 0px 0px 36px#e0cb0d;
@@ -51,7 +102,10 @@ body{
     background: rgb(26, 25, 25);
     cursor: pointer;
     padding: 25px 80px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -62,12 +116,15 @@ body{
     animation-name: buttonshow1;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #e06c0d;
-    margin-left: 21vh;
 }
     
 .aut:hover{
     box-shadow: 0px 0px 36px#e06c0d;
     transition: all 1s ease-in-out;
+}
+
+.autumn{
+    width: 27vw;
 }
 
 /* WINTER */
@@ -79,7 +136,10 @@ body{
     background: rgb(26, 25, 25);
     cursor: pointer;
     padding: 25px 80px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -90,12 +150,15 @@ body{
     animation-name: buttonshow2;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #0d8ce0;
-    margin-left: 7vh;
 }
         
 .win:hover{
     box-shadow: 0px 0px 36px#0d8ce0;
     transition: all 1s ease-in-out;
+}
+
+.winter{
+    width: 22.5vw;
 }
 
 /* SPRING */
@@ -107,7 +170,10 @@ body{
     background: rgb(26, 25, 25);
     cursor: pointer;
     padding: 25px 80px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -118,12 +184,15 @@ body{
     animation-name: buttonshow3;
     animation-duration: 1s;
     box-shadow: 0px 0px 16px #96e00d;
-    margin-left: 24vh;
 }
-            
+    
 .spr:hover{
     box-shadow: 0px 0px 36px#96e00d;
     transition: all 1s ease-in-out;
+}
+
+.spring{
+    width: 27.7vw;
 }
 
 /* ANIMAIONS AND ALIGNMENT */
@@ -290,45 +359,5 @@ body{
         outline: none;
         position: relative;
         transition: all 0.3s;
-    }
-}
-
-/* TITLE TEXT */
-.text{
-    font-size: 550px;
-    text-align: center;
-    color: white;
-    position: relative;
-    animation-name: textshow;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    width: 35vw;
-    border: 3px solid #fff;
-    background: rgb(26, 25, 25);
-}
-
-@keyframes textshow{
-    from{
-        font-size: 80px;
-        text-align: center;
-        color: white;
-        position: absolute;
-        margin-top:200px;
-        margin-left: 34%;
-        animation-name: textshow;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-        filter: blur(20px);
-    }
-    to{
-        font-size: 80px;
-        text-align: center;
-        color: white;
-        position: absolute;
-        margin-top:200px;
-        margin-left: 34%;
-        animation-name: textshow;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
     }
 }

@@ -177,9 +177,24 @@ body {
     
 }
 
+.lnav{
+    position: relative;
+    left: 7vw;
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    font-size: 2vw;
+    float: none;
+    top: -1vw;
+}
+
+.lnav:hover{
+    color: rgb(95, 20, 20);
+    transition: 1s;
+}
+
 .rnav{
     position: relative;
-    left:51vw;
+    left:31vw;
     color: rgb(218, 218, 218);
     text-decoration: none;
     font-size: 2vw;
@@ -194,7 +209,7 @@ body {
 
 .rnav1{ /** rules**/
     position: relative;
-    left:54vw;
+    left:34vw;
     color: rgb(218, 218, 218);
     text-decoration: none;
     text-align: center;
@@ -210,7 +225,7 @@ body {
 
 .rnav2{ /** about us **/
     position: relative;
-    left:57vw;
+    left:37vw;
     color: rgb(218, 218, 218);
     text-decoration: none;
     top: -1vw;

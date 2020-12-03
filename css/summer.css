@@ -177,10 +177,26 @@ body {
     
 }
 
+.lnav{
+    position: relative;
+    left: 7vw;
+    color:rgb(36, 36, 36);
+    text-decoration: none;
+    font-size: 2vw;
+    float: none;
+    top: -1vw;
+}
+
+.lnav:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+
 .rnav{
     position: relative;
-    left:51vw;
-    color: rgb(75, 75, 75);
+    left:31vw;
+    color: rgb(36, 36, 36);
     text-decoration: none;
     font-size: 2vw;
     float: none;
@@ -194,8 +210,8 @@ body {
 
 .rnav1{ /** rules**/
     position: relative;
-    left:54vw;
-    color: rgb(75, 75, 75);
+    left:34vw;
+    color:rgb(36, 36, 36);
     text-decoration: none;
     text-align: center;
     margin-top: -4vw;
@@ -210,15 +226,15 @@ body {
 
 .rnav2{ /** about us **/
     position: relative;
-    left:57vw;
-    color: rgb(75, 75, 75);
+    left:37vw;
+    color: rgb(36, 36, 36);
     text-decoration: none;
     top: -1vw;
     font-size: 2vw;
 }
 
 .rnav2:hover{
-    color: rgb(255, 255, 255);
+    color:  rgb(255, 255, 255);
     transition: 1s;
 }
 

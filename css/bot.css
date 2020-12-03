@@ -1,23 +1,19 @@
-*{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    background-image: url(../img/background-c.jpg);
-    background-repeat: no-repeat;
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../img/background5.png);
+	background-repeat: no-repeat;
     background-size: cover;
 }
 
-.background-2{
-    position: fixed;
-    width: 100%;
-    background-size: cover;
-    background-position: center bottom;
-    bottom: -200px;
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-/*      NAVBAR      */
 .logo{
     width: 4vw;
     height:4vw;
@@ -34,7 +30,7 @@ body{
 .lnav{
     position: relative;
     left: 7vw;
-    color: rgb(218, 218, 218);
+    color:  rgb(32, 32, 32);
     text-decoration: none;
     font-size: 2vw;
     float: none;
@@ -46,11 +42,10 @@ body{
     transition: 1s;
 }
 
-
 .rnav{
     position: relative;
     left:31vw;
-    color: rgb(218, 218, 218);
+    color:  rgb(32, 32, 32);
     text-decoration: none;
     font-size: 2vw;
     float: none;
@@ -65,7 +60,7 @@ body{
 .rnav1{ /** rules**/
     position: relative;
     left:34vw;
-    color: rgb(218, 218, 218);
+    color: rgb(32, 32, 32);
     text-decoration: none;
     text-align: center;
     margin-top: -4vw;
@@ -81,7 +76,7 @@ body{
 .rnav2{ /** about us **/
     position: relative;
     left:37vw;
-    color: rgb(218, 218, 218);
+    color: rgb(32, 32, 32);
     text-decoration: none;
     top: -1vw;
     font-size: 2vw;
@@ -93,22 +88,44 @@ body{
 }
 
 .text{
-    text-align: center;
-    font-size: 4vw;
-    color: white;
-    margin-top: 4vw;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
+	text-align: center;
+	font-size: 3vw;
+	color: rgb(134, 10, 72);
 }
 
-.text1{
-    margin-top: 3vw;
-    text-align: center;
-    font-size: 2.5vw;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
+.wrapper {
+	background-color: transparent;
+	width: 666px;
+	padding: 30px;
+	margin: 30px auto;
+	position: relative;
 }
-ul {
-    list-style-type: none;
+
+.row {
+	height: 200px;
+	width: 100%;
+}
+
+.row-02 {
+	height: 206px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+	float: left;
+	line-height: 200px;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.square-01,
+.square-04,
+.square-07 {
+	width: 206px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 }
